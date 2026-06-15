@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv
+venv/
+.env
+.env.local
+
+# Data
+data/
+sandbox/apps/
+
+# IDEs
+.vscode/
+.idea/

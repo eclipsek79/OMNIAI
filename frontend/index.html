@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OMNIAI Dashboard</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>OMNIAI Dashboard</h1>
+    <div class="controls">
+      <textarea id="goal" placeholder="Enter your goal here..."></textarea>
+      <div>
+        <label for="token">Auth Token</label>
+        <input id="token" value="1234" />
+        <button id="runBtn">Run Agent</button>
+      </div>
+    </div>
+
+    <h2>Output</h2>
+    <pre id="output">{ "status": "idle" }</pre>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
